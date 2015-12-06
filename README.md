@@ -14,4 +14,4 @@ Resolve other errors first
 ONLY WHEN MAP AN IMAGE FIELD WITH THE IMAGE BYNARY COLUMN 
 
 
-###For more informations, questions, how to, etc... don't forget to read the Wiki
+#####For more informations, questions, how to, etc... don't forget to read the Wiki
