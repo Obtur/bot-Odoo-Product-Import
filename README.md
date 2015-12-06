@@ -12,3 +12,6 @@ Resolve other errors first
 (4 more) Unknown error during import: <class 'binascii.Error'>: Incorrect padding at row 4 Resolve other errors first "
 
 ONLY WHEN MAP AN IMAGE FIELD WITH THE IMAGE BYNARY COLUMN 
+
+
+###For more informations, questions, how to, etc... don't forget to read the Wiki
