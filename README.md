@@ -3,7 +3,7 @@ Selenium bot made to improve the act of importing products into the Odoo module 
 
 ##THIS PROJECT WAS BORN ONLY AFTER, TIRELESSLY, TRYING TO USE THE STANDARD IMPORT OPTION OF ODOO MODULE/APP 'POINT OF SALE'.
 
-MAKING USE OF THE FUNCTIONS 'base64_encode' AND 'file_get_contents' TO TRANSFORM AN IMAGE INTO BINARY CODE AND GERERATING A FILE CSV.
+MAKING USE OF THE PHP FUNCTIONS 'base64_encode' AND 'file_get_contents' TO TRANSFORM AN IMAGE INTO BINARY CODE AND GERERATING A FILE CSV.
 
 ALWAYS RETURN :
 
@@ -11,4 +11,4 @@ ALWAYS RETURN :
 Resolve other errors first
 (4 more) Unknown error during import: <class 'binascii.Error'>: Incorrect padding at row 4 Resolve other errors first "
 
-WHEN MAP AN IMAGE FIELD WITH THE IMAGE BYNARY COLUMN 
+ONLY WHEN MAP AN IMAGE FIELD WITH THE IMAGE BYNARY COLUMN 
