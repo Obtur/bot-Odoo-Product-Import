@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<link rel="selenium.base" href="" />
+		<title>test</title>
+	</head>
+	<body>
+		<table cellpadding="1" cellspacing="1" border="1">
+			<thead>
+				<tr><td rowspan="1" colspan="3">test</td></tr>
+			</thead><tbody>
+			<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td>localhost</td>
+	<td></td>
+</tr>
+<tr>
+	<td>setTimeout</td>
+	<td>60000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>9</td>
+	<td>Loop</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://localhost/bot-Odoo-Product-Import/produtos-local.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openWindow</td>
+	<td>http://localhost:8069/web?db=commando</td>
+	<td>Bradmin</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>Bradmin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>http://localhost:8069/web/login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>Bradmin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForCondition</td>
+	<td>selenium.isElementPresent('id=login')</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=login</td>
+	<td>webmaster@plusti.net</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=password</td>
+	<td>password</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='wrapwrap']/main/div/form/div[4]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>Bradmin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//li[6]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li[6]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[6]/ul/li[3]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Create</td>
+	<td>1500</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForCondition</td>
+	<td>selenium.isElementPresent('id=oe-field-input-3')</td>
+	<td>1000</td>
+</tr>
+<!--loooop-->
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>index=0;</td>
+	<td></td>
+</tr>
+<tr>
+	<td>while</td>
+	<td>index &lt; storedVars['Loop']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>index + 1</td>
+	<td>WorkingLine</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[3]</td>
+	<td>ProdRef</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[5]</td>
+	<td>ProdName</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[4]</td>
+	<td>ProdEAN</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[6]</td>
+	<td>ProdDesc</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[6]</td>
+	<td>ProdPrice</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[8]</td>
+	<td>ProdPrice</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[9]</td>
+	<td>ProdCost</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[10]</td>
+	<td>ProdQuantity</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[11]</td>
+	<td>ProdWeight</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[13]</td>
+	<td>ProdCategory</td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tr[${WorkingLine}]/td[14]</td>
+	<td>ProdImgPath</td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>Bradmin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=General Information</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=ufile</td>
+	<td>${ProdImgPath}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//h1/span/input</td>
+	<td>${ProdName}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//td[2]/table/tbody/tr/td[2]/span/input</td>
+	<td>${ProdPrice}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//td[2]/div/span/input</td>
+	<td>${ProdCost}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=type</td>
+	<td>value=&quot;product&quot;</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//td[2]/span/input</td>
+	<td>${ProdRef}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//tr[3]/td[2]/span/input</td>
+	<td>${ProdEAN}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[4]/div/div/div/div/div[3]/ul/li[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//div[2]/table/tbody/tr/td[2]/table/tbody/tr/td[2]/div/span/input</td>
+	<td>${ProdWeight}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr[4]/td[2]/span/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForCondition</td>
+	<td>selenium.isElementPresent('link=Search More...')</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Search More...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeTextPresent</td>
+	<td>Search: Internal Category</td>
+	<td>Loaded</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>${Loaded}==true</td>
+	<td>CatClick</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>${Loaded}==false</td>
+	<td>ModalClick</td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>Continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>Bradmin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[3]/ul/li[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//td[2]/table/tbody/tr[2]/td[2]/span/div/span/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForCondition</td>
+	<td>selenium.isElementPresent('//a[contains(text(),'Search More...')]')</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Search More...')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeTextPresent</td>
+	<td>Search: Point of Sale Category</td>
+	<td>Loaded2</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>${Loaded2}==true</td>
+	<td>CatClick2</td>
+</tr>
+<tr>
+	<td>gotoIf</td>
+	<td>${Loaded2}==false</td>
+	<td>ModalClick2</td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>Continue2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//span/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//div[2]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//header/button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForVisible</td>
+	<td>//tr[5]/td[2]/span/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//tr[5]/td[2]/span/input</td>
+	<td>${ProdQuantity}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//footer/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForCondition</td>
+	<td>selenium.isElementPresent('css=oe_form_button_save')</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>index++;</td>
+	<td></td>
+</tr>
+<!--loooop-->
+<tr>
+	<td>endWhile</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[6]/ul/li[3]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>2000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/button[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>javascript{alert('ALL PRODUCTS SUCCESSFULLY IMPORTED!');}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>end</td>
+	<td></td>
+	<td></td>
+</tr>
+<!----------------------------------------------------------------------------------------->
+<tr>
+	<td>label</td>
+	<td>CatClick</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr/td[contains(.,'${ProdCategory}')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goto</td>
+	<td>Continue</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>ModalClick</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Search More...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr/td[contains(.,'${ProdCategory}')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goto</td>
+	<td>Continue</td>
+	<td></td>
+</tr>
+<!----------------------------------------------------------------------------------------->
+<tr>
+	<td>label</td>
+	<td>CatClick2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr/td[contains(.,'${ProdCategory}')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goto</td>
+	<td>Continue2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>label</td>
+	<td>ModalClick2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(),'Search More...')])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//tr/td[contains(.,'${ProdCategory}')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goto</td>
+	<td>Continue2</td>
+	<td></td>
+</tr>
+</tbody></table>
+	</body>
+</html>
