@@ -1,5 +1,6 @@
 # bot-Odoo-Product-Import
 Selenium bot made to improve the act of importing products into the Odoo module Point of Sale
+
 Screencast https://www.youtube.com/watch?v=7eI1tEW_WaE
 
 ##THIS PROJECT WAS BORN ONLY AFTER, TIRELESSLY, TRYING TO USE THE STANDARD IMPORT OPTION OF ODOO MODULE/APP 'POINT OF SALE'.
